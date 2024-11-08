@@ -1,0 +1,31 @@
+{
+  "name": "insany-hooks",
+  "version": "1.1.2",
+  "description": "Spooky hooks collection.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insany-Design/insany-hooks.git"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "exports": {
+    "default": "./index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "author": "Everaldo Júnior",
+  "license": "MIT"
+}
